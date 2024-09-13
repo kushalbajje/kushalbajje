@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # 💫 About Me:
-🔭 I’m currently working on building a PWA platform at Cantonica, focusing on responsive UI and security integration.<br><br>👯 I’m looking to collaborate on full-stack development and open-source AI-driven security projects<br><br>🤝 I'm looking for help with advancing my skills in AI-powered security solutions and threat modeling<br><br>🌱 I'm currently learning advanced penetration testing techniques and expanding my knowledge of cloud security<br><br>💬 Ask me about full-stack development, cybersecurity best practices, or how to integrate security into the software development lifecycle<br><br>⚡ Fun fact: I once secured 66th place among 500 participants in an INE Labs Capture the Flag (CTF) competition!
+🔭 I’m currently working on building a PWA platform at Cantonica, focusing on responsive UI and security integration.<br><br>👯 I’m looking to collaborate on full-stack development and open-source AI-driven security projects<br><br>🤝 I'm looking for help with advancing my skills in AI-powered security solutions and threat modeling<br><br>🌱 I'm currently learning advanced penetration testing techniques and expanding my knowledge of cloud security<br><br>💬 Ask me about full-stack development, cybersecurity best practices, or how to integrate security into the software development lifecycle<br><br>⚡ Fun fact:  I built a facial recognition system so good that it recognizes me faster than my own mirror in the morning.
 
 
 ## 🌐 Socials:
