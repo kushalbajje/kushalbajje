@@ -1,6 +1,9 @@
 # 👨‍💻 Kushal Bajje
-
 ## 🚀 Full-Stack Developer | 🛡️ Cybersecurity Enthusiast
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kushal-bajje)
+[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@kushalbajje)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/14506481)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Kushal_Bajje/)
 
 🔭 Currently building a PWA platform at Cantonica, focusing on responsive UI and security integration  
 🌱 Expanding my knowledge in advanced penetration testing and cloud security  
@@ -42,14 +45,6 @@ This tool combines user-friendly design with powerful security features, making 
 ### 📚 Latest Blog Post
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@kushalbajje/ai-powered-email-defense-a-step-by-step-guide-to-fine-tuning-bert-for-spam-detection-2f803aa15ffc)
 [AI-Powered Email Defense: A Step-by-Step Guide to Fine-Tuning BERT for Spam Detection](https://medium.com/@kushalbajje/ai-powered-email-defense-a-step-by-step-guide-to-fine-tuning-bert-for-spam-detection-2f803aa15ffc)
-
-### 🌐 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kushal-bajje)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@kushalbajje)
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/14506481)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Kushal_Bajje/)
-
-💡 Let's connect and collaborate on innovative projects!
 
 ---
 ![Profile Views](https://komarev.com/ghpvc/?username=kushalbajje&color=blueviolet)
