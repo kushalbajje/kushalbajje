@@ -1,0 +1,68 @@
+name: Update README with GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs every Sunday at midnight
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-readme:
+    name: Update README with latest stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update README
+        run: |
+          TOKEN="${{ secrets.GITHUB_TOKEN }}"
+          USERNAME="kushalbajje"
+          
+          # Fetch language stats
+          STATS=$(curl -H "Authorization: token $TOKEN" \
+                       -H "Accept: application/vnd.github.v3+json" \
+                       "https://api.github.com/users/$USERNAME/repos?per_page=100" | \
+                  jq -r '[.[].languages_url] | .[]' | \
+                  xargs -n1 curl -H "Authorization: token $TOKEN" -H "Accept: application/vnd.github.v3+json" | \
+                  jq -r 'to_entries | .[] | .key + ":" + (.value | tostring)' | \
+                  awk '{a[$1]+=$2} END{for (i in a) print i "=" a[i]}' | \
+                  sort -rn -k2 -t= | \
+                  head -n5)
+          
+          # Update README
+          sed -i '/\!\[JavaScript/,/\!\[CSS/c\
+          '"$(echo "$STATS" | while IFS='=' read -r lang bytes; do
+              case $lang in
+                JavaScript)
+                  color="F7DF1E"
+                  logo="javascript"
+                  ;;
+                Python)
+                  color="3776AB"
+                  logo="python"
+                  ;;
+                TypeScript)
+                  color="007ACC"
+                  logo="typescript"
+                  ;;
+                HTML)
+                  color="E34F26"
+                  logo="html5"
+                  ;;
+                CSS)
+                  color="1572B6"
+                  logo="css3"
+                  ;;
+                *)
+                  color="000000"
+                  logo=""
+                  ;;
+              esac
+              percentage=$(echo "scale=2; $bytes * 100 / $(echo "$STATS" | cut -d'=' -f2 | paste -sd+ | bc)" | bc)
+              echo "![${lang}](https://img.shields.io/badge/${lang}-${percentage}%25-${color}?style=flat-square&logo=${logo}&logoColor=white)"
+            done)"' README.md
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          git commit -m "Update README with latest language stats" || exit 0
+          git push
