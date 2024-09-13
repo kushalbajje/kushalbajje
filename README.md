@@ -53,5 +53,3 @@ This tool combines user-friendly design with powerful security features, making 
 
 ---
 ![Profile Views](https://komarev.com/ghpvc/?username=kushalbajje&color=blueviolet)
-
-⚡ Fun fact: I built a facial recognition system so accurate, it recognizes me faster than my morning coffee kicks in!
