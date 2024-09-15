@@ -17,10 +17,10 @@
 
 Ever curious about how hackers see your network? I partnered with some incredible folks to build a tool that shows you exactly that! Here's what it does:
 
-🕵️‍♂️ Scans your local network for devices like a digital sleuth 
-🚀 Uses Nmap (like a pro!) to expose those hidden security gaps 
-📊 Produces straightforward reports showing where your network might be vulnerable 
-🛡️ In short, it acts like your personal network watchdog
+🕵️‍♂️ Scans your local network for devices like a digital sleuth </br>
+🚀 Uses Nmap (like a pro!) to expose those hidden security gaps </br>
+📊 Produces straightforward reports showing where your network might be vulnerable </br>
+🛡️ In short, it acts like your personal network watchdog </br>
 
 This tool combines user-friendly design with powerful security features, making network vulnerability assessment accessible to both professionals and enthusiasts.
 
