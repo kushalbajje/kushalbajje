@@ -5,7 +5,7 @@
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/14506481)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Kushal_Bajje/)
 
-🔭 Currently building a PWA platform at Cantonica, focusing on responsive UI and security integration  
+🔭 Currently building an Ecommerce platform at BulkMagic, focusing on responsive UI and security integration  
 🌱 Expanding my knowledge in advanced penetration testing and cloud security  
 👯 Open to collaborating on full-stack projects and AI-driven security initiatives  
 💬 Ask me about full-stack development, cybersecurity best practices, or DevSecOps  
